@@ -3,16 +3,21 @@ server:
 
 spring:
   application:
-    name: config-server
+    name: jhm-config-servidor
   cloud:
     config:
       server:
         git:
 
-          uri: https://github.com/hokjose/EXAMEN_MIRCROSERVICIOS.git
+          uri: https://github.com/hokjose/24-examen_microservicios.git
           searchPaths: config-data
           default-label: main
   security:
     user:
       name: jose
       password: miriam
+
+
+
+
+

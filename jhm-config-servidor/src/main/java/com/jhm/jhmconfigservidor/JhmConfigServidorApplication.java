@@ -11,5 +11,4 @@ public class JhmConfigServidorApplication {
     public static void main(String[] args) {
         SpringApplication.run(JhmConfigServidorApplication.class, args);
     }
-
 }
